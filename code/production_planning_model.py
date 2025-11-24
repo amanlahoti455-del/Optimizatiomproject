@@ -6,9 +6,9 @@ import pandas as pd
 import pulp as pl
 
 # Updating dataset paths
-PRODUCTS_CSV = "01_products_6m_B.csv.csv"
-DEMAND_CSV   = "02_demand_6m_B.csv.csv"
-CAPACITY_CSV = "03_capacity_6m_B.csv.csv"
+PRODUCTS_CSV = "../Datasets/01_products.csv"
+DEMAND_CSV   = "../Datasets/02_demand.csv"
+CAPACITY_CSV = "../Datasets/03_capacity.csv"
 
 
 OUTPUT_DIR = "outputs"
